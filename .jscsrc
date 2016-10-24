@@ -1,0 +1,13 @@
+{
+  "preset": "jquery",
+  "requireCamelCaseOrUpperCaseIdentifiers": true,
+  "requireCapitalizedConstructors": true,
+  "requireParenthesesAroundIIFE": true,
+  "validateQuoteMarks": "'",
+  "validateLineBreaks": null,
+  "disallowTrailingWhitespace": "ignoreEmptyLines",
+  "excludeFiles": [ 
+    "./Gruntfile",
+    "./app/scripts/src/responsive-containers.js"
+  ]
+}

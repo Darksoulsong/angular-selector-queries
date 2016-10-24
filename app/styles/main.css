@@ -1,0 +1,91 @@
+
+    
+        body {
+            background-color: #333;
+            font-family: helvetica, arial, sans-serif;
+            font-size: 13px;
+        }
+    
+        .stage {
+            background-color: #FFF;
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 2em 2em 200px 2em;
+        }
+    
+        .unit {
+            float: left;
+        }
+        .size1of3 {
+            width: 33%;
+        }
+        .size2of3 {
+            width: 66%;
+        }
+        .size3of3 {
+            width: 100%;
+        }
+        
+        .menu {
+           margin: 1em 1em 1em 0;
+           padding: 0; 
+        }
+        .menu li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .menu img {
+            display: none;
+        }
+        .menu a:link,
+        .menu a:visited {
+            color: #333;
+            display: block;
+            text-decoration: none;
+            border-bottom: 1px solid #AAA;
+            padding: 0.5em 1em;
+        }
+        .menu a:hover,
+        .menu a:focus,
+        .menu a:active {
+            background-color: #CCC;
+            color: #FFF;
+        }
+        .menu li:first-child a {
+            border-top: 1px solid #AAA;
+        }
+        .menu.wide li {
+            float: left;
+            list-style: none;
+        }
+        .menu.wide img {
+            display: block;
+            margin-bottom: 1em;
+        }
+        .menu.wide li a {
+            border: none;
+            text-align: center;
+        }        
+
+        .codex {
+            color: green;
+        }
+        .codex .attr {
+            color: blue;
+        }
+        .meta {
+            clear: both;
+            padding-top: 5em;
+        }
+
+        .unit::first-of-type.size3of3 {
+            margin-bottom: 0.5em;
+        }
+
+        .holder.portable .unit { 
+            width: 100%;
+            margin-bottom: 0.5em;
+        }
+    
