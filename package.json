@@ -1,7 +1,7 @@
 {
   "name": "angularselectorqueries",
   "private": false,
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./src/angular-selector-queries.js",
   "homepage": "https://github.com/Darksoulsong/angular-selector-queries",
   "repository": {

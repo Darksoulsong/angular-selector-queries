@@ -3,7 +3,7 @@
   "homepage": "https://github.com/Darksoulsong/angular-selector-queries",
   "version": "1.0.3",
   "main": "./src/angular-selector-queries.js",
-  "ignore": [
+  "ignore": [ 
     "app",
     ".bowerrc",
     ".gitignore",
