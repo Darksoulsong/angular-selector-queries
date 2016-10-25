@@ -3,9 +3,11 @@
 Selector queries and responsive containers
 
 Install with bower:
+
     bower install angularselectorqueries
 
 Install with npm:
+
     npm install angularselectorqueries
 
 This script allows you to apply different class values to 
@@ -13,7 +15,7 @@ an HTML element based on its width. Use it as follows:
 
 Call the ngSelectorQueries module in your module definition:
 
-    angular.module('FooApp', [ 'ngSelectorQueries' ]);
+    angular.module( 'FooApp', [ 'ngSelectorQueries' ] );
 
 
 Use the directive as you normally would in your template, using the classical notation:
