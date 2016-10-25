@@ -2,6 +2,12 @@
 
 Selector queries and responsive containers
 
+Install with bower:
+    bower install angularselectorqueries
+
+Install with npm:
+    npm install angularselectorqueries
+
 This script allows you to apply different class values to 
 an HTML element based on its width. Use it as follows:
 
