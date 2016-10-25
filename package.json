@@ -1,6 +1,6 @@
 {
   "name": "angularselectorqueries",
-  "private": true,
+  "private": false,
   "version": "1.0.0",
   "main": "./src/angular-selector-queries.js",
   "repository": {
